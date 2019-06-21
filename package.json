@@ -1,0 +1,18 @@
+{
+  "name": "@stackbit/artisanal-names",
+  "version": "1.0.0",
+  "description": "Friendly names generator",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stackbithq/artisanal-names.git"
+  },
+  "author": "Stackbit",
+  "bugs": {
+    "url": "https://github.com/stackbithq/artisanal-names/issues"
+  },
+  "homepage": "https://github.com/stackbithq/artisanal-names#readme",
+  "dependencies": {
+    "randy": "^1.5.1"
+  }
+}
