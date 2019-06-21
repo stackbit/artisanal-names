@@ -12,7 +12,5 @@
     "url": "https://github.com/stackbithq/artisanal-names/issues"
   },
   "homepage": "https://github.com/stackbithq/artisanal-names#readme",
-  "dependencies": {
-    "randy": "^1.5.1"
-  }
+  "dependencies": {}
 }

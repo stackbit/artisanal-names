@@ -1,4 +1,3 @@
-const randy = require('randy');
 
 let adjectives;
 let nouns;
@@ -8,12 +7,20 @@ function loadWords() {
     nouns = require('./words/nouns.js');
 }
 
+function randInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+function choice(arr) {
+    return arr[randInt(arr.length)];
+}
+
 function generate() {
     if (!adjectives || !nouns) {
         loadWords();
     }
 
-    return `${randy.choice(adjectives)}-${randy.choice(nouns)}`
+    return `${choice(adjectives)}-${choice(nouns)}`
 }
 
 module.exports = {
