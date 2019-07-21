@@ -38,7 +38,7 @@ module.exports = [
 "goat",
 "rabbit",
 "turtle",
-"turtoise",
+"tortoise",
 "apple",
 "pineapple",
 "tomato",
